@@ -6,7 +6,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="saludoService" class="com.example.Saludo">
+    <bean id="saludoService" class="com.ejercicio1.Saludo">
         <!-- collaborators and configuration for this bean go here -->
     </bean>
 </beans>

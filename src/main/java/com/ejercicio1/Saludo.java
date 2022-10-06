@@ -1,4 +1,4 @@
-package com.example;
+package com.ejercicio1;
 
 public class Saludo {
 

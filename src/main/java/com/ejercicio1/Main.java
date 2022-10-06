@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Ingrese su nombre");
         nombre = scanner.nextLine();
 
-        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("beanseje1.xml");
         Saludo saludar = (Saludo) context.getBean("saludoService");
         String texto = saludar.imprimirSaludo(nombre);
         System.out.println(texto);
